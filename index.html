@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Spotify
+	</title>
+	<link rel="stylesheet" type="text/css" href="bulma/css/bulma.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="columns">
+		<div class="title column is-half is-offset-one-quarter">
+			<h1>Spotify Albums Search</h1>
+		</div>
+	</div>
+	<div class="columns">
+		<div class="column is-half is-offset-one-quarter is-grouped">
+			<div class="control is-grouped">
+				<p class="control is-expanded">
+					<input class="input" type="text" placeholder="Find albums" id="genre">
+				</p>
+				<p class="control">
+					<a class="button is-info" id="search">Search</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="albums">
+	</div>
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="
+		crossorigin="anonymous"></script>
+		<script src="script.js"></script>
+</body>
+</html>
